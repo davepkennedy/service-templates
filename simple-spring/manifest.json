@@ -1,2 +1,5 @@
-[
-]
+{
+  "main": ["Endpoint.java","Greeting.java"],
+  "test": [],
+  "dependencies":["web","actuator","lombok"]
+}
