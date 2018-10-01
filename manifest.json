@@ -1,2 +1,6 @@
 [
+  {
+    "name": "simple service",
+    "type": "spring"
+  }
 ]
