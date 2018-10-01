@@ -2,6 +2,6 @@
   {
     "name": "simple service",
     "type": "spring",
-    "location": ""
+    "location": "simple-spring"
   }
 ]
