@@ -1,0 +1,15 @@
+package {{ packageName }};
+
+import lombok.Getter;
+
+public class Greeting {
+    @Getter
+    private final String who;
+    @Getter
+    private final String how;
+
+    public Greeting (String who, String how) {
+        this.who = who;
+        this.how = how;
+    }
+}
