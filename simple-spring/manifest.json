@@ -1,5 +1,24 @@
 {
-  "main": ["GreetingController.java.mustache","Greeting.java.mustache"],
-  "test": [],
+  "files": [
+    {
+      "name":"GreetingController.java.mustache",
+      "location":"main",
+      "mode":"create"
+    },
+    {
+      "name":"Greeting.java.mustache",
+      "location":"main",
+      "mode":"create"
+    },
+    {
+      "name":"Dockerfile.mustache",
+      "location":"project",
+      "mode":"create"
+    },
+    {
+      "name":"build.gradle",
+      "location":"project",
+      "mode":"append"
+  ],
   "dependencies":["web","actuator","lombok"]
 }
