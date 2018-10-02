@@ -1,5 +1,5 @@
 {
-  "main": ["Endpoint.java","Greeting.java"],
+  "main": ["Endpoint.java","Greeting.java.mustache"],
   "test": [],
   "dependencies":["web","actuator","lombok"]
 }
