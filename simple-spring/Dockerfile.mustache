@@ -1,0 +1,13 @@
+FROM openjdk:10
+
+MAINTAINER EAN Architecture
+
+RUN groupadd -r eps && useradd --no-log-init -r -g eps eps
+
+ADD build/libs/spring-boot-template.jar spring-boot-template.jar
+
+EXPOSE 8080
+
+USER eps:eps
+
+ENTRYPOINT ["java", "-jar", "spring-boot-template.jar"]
