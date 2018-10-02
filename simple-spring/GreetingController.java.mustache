@@ -9,6 +9,6 @@ public class GreetingController {
     
     @RequestMapping(path="/greeting", method=RequestMethod.GET)
     public Greeting handleGet () {
-        return service.createGreeting();
+        return new Greeting("world","hello");
     }
 }
