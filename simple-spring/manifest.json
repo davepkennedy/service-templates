@@ -19,6 +19,7 @@
       "name":"build.gradle",
       "location":"project",
       "mode":"append"
+    }
   ],
   "dependencies":["web","actuator","lombok"]
 }
